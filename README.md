@@ -54,7 +54,7 @@ Sitemap: 網址/google-news.xml
 #### XML Sitemap
 #### loc     ： 你的網頁
 #### lastmod ： YYYY-mm-ddTmm:hh:ssZ
-#### 建議利用 python 在背景處理玩出，做成靜態檔案，可參考 sitemap.py ，資料庫連線方式可再去找適合你的方式
+#### 建議利用 python 在背景處理完成，做成靜態檔案，可參考 sitemap.py ，資料庫連線方式可再去找適合你的方式
 
 <https://developers.google.com/search/docs/guides/create-URLs>
 ```
