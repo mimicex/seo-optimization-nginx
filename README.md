@@ -47,3 +47,31 @@ Sitemap: 網址/sitemap.xml
 Sitemap: 網址/google-news.xml
 
 ```
+
+
+### sitemap 設定方式
+
+#### XML Sitemap
+#### loc     ： 你的網頁
+#### lastmod ： YYYY-mm-ddTmm:hh:ssZ
+#### 建議利用 python 在背景處理玩出，做成靜態檔案，可參考 sitemap.py ，資料庫連線方式可再去找適合你的方式
+
+<https://developers.google.com/search/docs/guides/create-URLs>
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>你的網頁</loc>
+    <lastmod>2024-09-24T08:50:58Z</lastmod>
+  </url>
+  <url>
+    <loc>你的網頁</loc>
+    <lastmod>2024-09-24T08:50:58Z</lastmod>
+  </url>
+  <url>
+    <loc>你的網頁</loc>
+    <lastmod>2024-09-24T08:50:58Z</lastmod>
+  </url>
+</urlset>
+```
+
