@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /preview/
+
+Crawl-Delay: 10
+
+Sitemap: 網址/sitemap.xml
+Sitemap: 網址/google-news.xml
