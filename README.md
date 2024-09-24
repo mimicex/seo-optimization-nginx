@@ -1,12 +1,12 @@
 ## SEO Optimization nginx 301 設定方式
 
 ### 如果同一個內容有很多網址產生，需要確認最後網址為何，單指設定 canonical 是不夠的，需要告知google正確訊號，不然爬蟲會針對它覺得網頁流量好的去索引，跳轉過程爬蟲只看最後一頁的狀態，第一頁要跳轉到後面都是設定301
-### 例如
-### test.com.tw/abc/24123
-### test.com.tw/news/abc/24123
-### 都是指的是相同網頁內容的話
-### canonical 設定標準網址是 test.com.tw/news/abc/24123
-### test.com.tw/abc/24123 就必須用 301 指向 test.com.tw/news/abc/24123
+#### 例如
+#### test.com.tw/abc/24123
+#### test.com.tw/news/abc/24123
+#### 都是指的是相同網頁內容的話
+#### canonical 設定標準網址是 test.com.tw/news/abc/24123
+#### test.com.tw/abc/24123 就必須用 301 指向 test.com.tw/news/abc/24123
 
 ### 使用 http 入站的話，判斷讓他跳轉至 https，指定 301跳轉
 ```
